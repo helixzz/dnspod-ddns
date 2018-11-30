@@ -4,7 +4,7 @@ import sys
 import logging
 
 # linux
-config_path = '/etc/dnspod/ddnsrc'
+config_path = 'ddnsrc'
 # windows
 if os.name == 'nt':
     config_path = 'ddnspod.cfg'
